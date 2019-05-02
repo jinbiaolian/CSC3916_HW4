@@ -25,8 +25,7 @@ var CommentSchema = new Schema({
         type: String,
         required: true,
         unique: false
-    },
-
+    }
 });
 // return the model
 module.exports = mongoose.model('Comments', CommentSchema);
